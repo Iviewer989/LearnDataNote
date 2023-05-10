@@ -74,7 +74,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "🪟 系统问题",
+    text: "系统问题",
     icon: "",
     prefix: "/windows/",
     link: "",
@@ -82,7 +82,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "🛖 生活记录",
+    text: "生活记录",
     icon: "",
     prefix: "/family/",
     link: "",
