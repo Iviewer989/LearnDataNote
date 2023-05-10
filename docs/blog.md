@@ -3,10 +3,10 @@
 home: true
 layout: BlogHome
 icon: home
-title: 互联网小白
+title: Learn Basic
 #heroImage: /logo.svg
-heroText: 互联网小白
-tagline: 盛年不重来，一日难再晨
+heroText: 开源笔记
+tagline: 贝蒂秒厨巡航摩托车
 bgImage: https://img.newzone.top/home-bg-1.jpg
 heroFullScreen: false
 #projects:
