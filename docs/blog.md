@@ -9,6 +9,7 @@ heroText: 开源笔记
 tagline: 贝蒂秒厨巡航摩托车
 bgImage: https://img.newzone.top/home-bg-1.jpg
 heroFullScreen: false
+
 #projects:
 #  - icon: project
 #    name: 项目名称
