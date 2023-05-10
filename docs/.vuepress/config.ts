@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 // import { webpackBundler } from "@vuepress/bundler-webpack";
 // import { defineUserConfig } from "@vuepress/cli";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { path } from "@vuepress/utils";
 import theme from "./theme";
@@ -37,13 +36,6 @@ export default defineUserConfig({
   ],
 
   plugins: [
-    // algolia 全文搜索：没设置爬虫的话，需删除 docsearchPlugin 区块以使用节点搜索
-    docsearchPlugin({
-      indexName: "newzone",
-      appId: "M4EXXEZIEG",
-      apiKey: "fd8891a9c4cc21e0ef4f11bf44f7a11e",
-    }),
-    // 本地搜索，删除上方 docsearchPlugin 区块后生效
     searchProPlugin({
       // 索引全部内容
       indexContent: true,
